@@ -1,0 +1,123 @@
+@charset "utf-8";
+@import url('common.css');
+
+header{width:100%;
+    position: absolute;
+    left:0; top:0;
+    background-color:#9fbcdd;
+}
+header article{width:80%; margin:0 auto;
+            text-align:center;
+            
+
+           }          
+.pot a{margin-top:90px;         
+}
+.pot a img{margin-bottom:50px;}
+.pot{display:flex;
+justify-content: space-between;
+}
+.pot ul{}
+.pot ul li{display:inline-block;
+        margin-top:127px;
+        padding:0 50px;
+        vertical-align: top;}
+.pot ul li a{color:white; font-size: 20px;}
+.pot ul li div{white-space: pre-line;
+            background-color:black;
+            padding:10px 10px;
+            line-height:1.3;
+            display:none;
+            
+}
+.pot ul li div a{color:white;
+            }
+
+
+.menu-trigger {
+width: 50px;
+transform:scale(.4);
+/* rotate(90deg) translate(50%,50%) */
+position:absolute;
+right:0; top:0;
+margin:110px 30px;
+
+}
+.menu-trigger,
+.menu-trigger span {
+display: inline-block;
+box-sizing: border-box;
+display:none;
+}
+
+.menu-trigger span {
+width: 100%;
+height: 4px;
+background-color: #fff;
+border-radius: 4px;
+height:8px;
+}
+
+.menu-trigger span:nth-of-type(1) {
+top: 0;
+}
+
+.menu-trigger span:nth-of-type(2) {
+top: 20px;
+}
+
+.menu-trigger span:nth-of-type(3) {
+bottom: 0;
+}
+
+.first{width:60%;
+        padding-top:311px;
+        position:absolute;
+        display:flex;
+        justify-content: space-around;
+        ;}
+        
+.first img{width:36px;}
+.first h1{margin-left:500px;
+        color:#ad5555;}
+
+.group{display:flex;
+        flex-direction: column;
+        width:80%;
+        margin:0 auto;}
+.group .hole{margin-top:405px;
+               }
+.group .hole img{}
+.group div{text-align: center;
+               }
+.group div h2{}
+.group div p{}
+.group .pot{display:flex;
+                justify-content: space-between;}
+.group .pot img:nth-of-type(1){
+        width:787px;
+}
+.group .pot img:nth-of-type(2){
+        width:422px;}
+
+
+
+footer{ height:282px;
+     margin:0 auto;
+     display:none;
+        }
+footer div{display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:0 200px;
+            background-color:#c5c5c5;
+            }
+footer div img{width:150px; height:110px;}
+footer div p{font-size:23.5px;}
+footer div span{white-space: pre-line;
+                line-height: 1.5em;
+                margin:93px 0;
+                
+}
+footer div a{}
+footer div a img{width:30px; height:31px;}
