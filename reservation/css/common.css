@@ -18,6 +18,7 @@ a{
     text-decoration:none;
     color:#555;
 }
+table{border-collapse: collapse;}
 
 :lang(en){font-family:'times new Roman'}
 :lang(kr){font-family:'H2GTRM'}

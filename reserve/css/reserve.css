@@ -47,7 +47,6 @@ margin:110px 30px;
 .menu-trigger span {
 display: inline-block;
 box-sizing: border-box;
-display:none;
 }
 
 .menu-trigger span {
@@ -86,12 +85,12 @@ main article img{margin-top:275px;}
 .ro h2{color:#ad5555;
         margin-bottom:46px;
         font-size:35px;
-        font-weight: normal;
 
 }
-.ro a{display:flex;
-        margin-bottom:58px;}
-.ro a span{width:288px; height:80px;
+.ro nav{display:flex;
+        }
+.ro nav a{display:flex;}
+.ro nav a span{width:288px; height:80px;
         border:1px solid black;
         font-size:20px;
         display:flex;
@@ -99,44 +98,62 @@ main article img{margin-top:275px;}
         align-items: center;
         font-weight:bold;
         }
-.ro a span:nth-of-type(1){
+.ro nav a:nth-of-type(2) span{
         color:#ff0b0b;
+        text-decoration: underline;
 }
-.do{width:70%;
-        margin:0 auto;}
-.do p{font-size:25px;
-        white-space: pre-line;
+.bear{margin:0 auto;
+        width:70%;}
+.bear h2{margin-top:115px;
+        border-bottom:3px solid black;
+        width:11%;
+        }
+.table{margin-top:45px;
+        text-align: center;
+        border:1px solid black;
+        width:1328px;}
+.table tr{}
+.table tr td{border:1px solid black;
+                white-space: pre-line;
+                height:99px;
+        width:7%;}
+.table tr:nth-of-type(1) td{
+        height:80px;
+}
+.row{width:70%; margin:0 auto;
         display:flex;
-        width:42%;
-        justify-content: space-evenly;
-
-}
-.do p span{
-        display:block;
-}
-.do p a{width:20px; height:20px;
-        
-}
-.do p a img{
+        justify-content: space-between;}
+.row div{}
+.row div article{margin:94px 0;}
+.row div article h2{margin-bottom:24px;}
+.row div article p{white-space: pre-line;
+                        color:#7a7474;
+                        line-height:2;}
+.row .bo{display:flex;
+        flex-wrap:wrap;
+        justify-content:flex-end;
+        flex-direction:column;
+        margin:94px 0;
+        width:614px;}
+.row .bo figure{}
+.bo .po{display:flex;
+        margin-top:20px;
+        height:344px;
         }
-.do table{width:556px; height:363px;
-        border:1px solid #000;
-        text-align:center;}
-.do table tr{}
-.do table tr:nth-of-type(1){
-        background-color: #dddddd;
+.bo .po img:nth-of-type(1){
+        width:331px;
+}
+.bo .po img:nth-of-type(2){
+        width:268px;
+        margin-left:15px;
 }
 
-.do table tr td{font-weight: bold;}
-.ko{display:flex;
-        flex-direction: column;
-        position: absolute;
-        }
-.ko h3{}
-.ko p{white-space: pre-line;}
+
+.row .bo figure img{}
+
 footer{ height:282px;
      margin:0 auto;
-        display:none;
+
         }
 footer div{display:flex;
             justify-content: space-between;

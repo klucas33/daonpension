@@ -47,7 +47,6 @@ margin:110px 30px;
 .menu-trigger span {
 display: inline-block;
 box-sizing: border-box;
-display:none;
 }
 
 .menu-trigger span {
@@ -69,35 +68,40 @@ top: 20px;
 .menu-trigger span:nth-of-type(3) {
 bottom: 0;
 }
-.main{margin-top:229px;}
-.main img{position:relative;
-                }
-.main a{
-        
-        display:flex;
-        }
-.main a span{position:absolute;
+.purple{margin-top:277px;
+}
+.purple div{width:100%;
+                position: absolute;
+                top:48%;
+
+}
+.purple div a:nth-of-type(1){
+        float:left
+}
+.purple div a:nth-of-type(2){
+        float: right;
+}
+.purple a{}
+.purple a span{display:flex;
     background-color:#80b8c4;
     width:60px; height:60px;}
-.main a span:nth-of-type(1){
-        top:40%;
-}
-.main a span:nth-of-type(2){
-        right:0; top:40%;
-}
 
-.main h2{position: absolute;
-        top:40%; right:48%;
+.purple a img{
+        widtH:22px;
+        margin:5px 0 0 20px;
+}
+.purple figure img{
+        
+}
+.purple h2{position: absolute;
         text-shadow:0px 0 10px  #000 ;
         /* -webkit-text-stroke:2px #f00; */
         color:#fcfcfc; 
-        font-size
+        left:50%; top:50%;
+        transform:translate(-50%, -50%);
         text-align: center;
 }
-.main a img{
-        widtH:22px;
-        margin:10px 0 0 20px;
-}
+
 .col{display:flex;
         flex-direction: column;
         align-items: center;
@@ -131,16 +135,50 @@ bottom: 0;
                         background-color: #000000;
                         opacity:60%;
                         position:absolute;
-                        bottom:10%; right:0;
+                        bottom:0%; right:0;
                         color:white;
                         display:flex;
                         justify-content: center;
                         align-items: center;
+                        transition:.5s;
                         }
 .top1 article h1{text-align: center;
                 margin-bottom:34px;}
 
 .top1 article p{margin-top:26px;}
+.top1 article:nth-of-type(1):hover a span{
+        width:100%; height:85%;
+        display:flex;
+        flex-direction:column;
+ }
+ .top1 article:nth-of-type(1):hover a span strong{
+         color:#f0b424;
+         font-size:50px;
+ }
+ .top1 article:nth-of-type(1):hover a span small{
+         font-size:22px;
+         display: block;
+         
+ }
+ .top1 article:nth-of-type(1) a span small{
+         display:none;}
+
+.top1 article:nth-of-type(2):hover a span{
+        width:100%; height:85%;
+        display:flex;
+        flex-direction:column;
+ }
+ .top1 article:nth-of-type(2):hover a span strong{
+         color:#f0b424;
+         font-size:50px;
+ }
+ .top1 article:nth-of-type(2):hover a span small{
+         font-size:22px;
+         display: block;
+         
+ }
+ .top1 article:nth-of-type(2) a span small{
+         display:none;}
 
 .top2{display:flex;
         align-items: center;
@@ -176,12 +214,28 @@ bottom: 0;
 }
 .top2 article:nth-of-type(1):hover a span small{
         font-size:22px;
-        display:block;
+        display: block;
         
 }
 .top2 article:nth-of-type(1) a span small{
         display:none;
-}
+}.top2 article:nth-of-type(2):hover a span{
+        width:100%; height:100%;
+        display:flex;
+        flex-direction:column;
+ }
+ .top2 article:nth-of-type(2):hover a span strong{
+         color:#f0b424;
+         font-size:50px;
+ }
+ .top2 article:nth-of-type(2):hover a span small{
+         font-size:22px;
+         display: block;
+         
+ }
+ .top2 article:nth-of-type(2) a span small{
+         display:none;
+ }
 .top2 article h1{text-align: center;
                 margin-bottom:34px;}
 

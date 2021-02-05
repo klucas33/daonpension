@@ -46,7 +46,7 @@ header article{width:80%; margin:0 auto;
 .menu-trigger span {
 	display: inline-block;
     box-sizing: border-box;
-    display:none;
+    
 }
 
 .menu-trigger span {
@@ -104,6 +104,12 @@ main{width:100%;
 }
 .group form div{margin:0 15px;
         width:100%  ;}
+.group form div button{
+    width:100%;
+    background:blue;
+    color:white;
+    height:30px;
+}
 .group form div input{width:100%; height:30px;
                 margin-top:13px;
 
@@ -142,6 +148,18 @@ main{width:100%;
     display:flex;
     justify-content: space-evenly;
     margin-top:50px;}
+.red .dont{
+    display: flex;
+    align-items: center;
+    }
+.red .dont span{background-color:#434343;
+    height:58px;
+    width:58px;
+    display:inline-block;
+    border-radius: 100%;
+    margin:0 30px;}
+.red .dont span img{width:13px;
+                    margin:21px;}
 .red figure{margin:0 10px;}
 .red figure img{width:475px; height:385px;
                 vertical-align: top;
@@ -158,14 +176,6 @@ main{width:100%;
 }
 .red figure div p{
     margin:33px 44px;
-}
-.red a{}
-        
-.red a span{
-    width:58px; height:58px;
-                border-radius: 100%;
-                background-color:#434343;}
-.red a span img{
 }
 .fac{width:80%; margin:0 auto;
     text-align: center;}

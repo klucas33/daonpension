@@ -27,7 +27,9 @@ header article{width:80%; margin:0 auto;
                 padding:10px 10px;
                 line-height:1.3;
                 display:none;
-                
+}
+.pot ul li div:hover{
+    display:block;
 }
 .pot ul li div a{color:white;
                 }
@@ -46,7 +48,7 @@ header article{width:80%; margin:0 auto;
 .menu-trigger span {
 	display: inline-block;
     box-sizing: border-box;
-    display:none;
+    
 }
 
 .menu-trigger span {
@@ -104,6 +106,17 @@ main{width:100%;
 }
 .group form div{margin:0 15px;
         width:100%  ;}
+.group form div select{
+    width:100%;
+    margin-top:13px;
+    padding-top:10px;
+}
+.group form div button{
+    width:100%;
+    background:blue;
+    color:white;
+    height:30px;
+}
 .group form div input{width:100%; height:30px;
                 margin-top:13px;
 
@@ -122,7 +135,11 @@ main{width:100%;
         
 .main img{
         width:577px; height:387px;
-     
+       transition:.5s;
+}
+.main img:hover{
+transform: translateX(-20%);
+  
 }
 .main article{}
 .main article h1{
@@ -142,10 +159,30 @@ main{width:100%;
     display:flex;
     justify-content: space-evenly;
     margin-top:50px;}
+.red .dont{
+    display: flex;
+    align-items: center;
+    }
+.red .dont span{background-color:#434343;
+    height:58px;
+    width:58px;
+    display:inline-block;
+    border-radius: 100%;
+    margin:0 30px;
+    transition: .5s;}
+.red .dont span:hover{
+    background-color:orange;
+}
+.red .dont span img{width:13px;
+                    margin:21px;}
 .red figure{margin:0 10px;}
 .red figure img{width:475px; height:385px;
                 vertical-align: top;
+                transition: .5s;
                 }
+.red figure img:hover{
+    transform:translateY(-20%);
+}
 .red figure div{
     display:flex;
     justify-content: space-between;
@@ -158,14 +195,6 @@ main{width:100%;
 }
 .red figure div p{
     margin:33px 44px;
-}
-.red a{}
-        
-.red a span{
-    width:58px; height:58px;
-                border-radius: 100%;
-                background-color:#434343;}
-.red a span img{
 }
 .fac{width:80%; margin:0 auto;
     text-align: center;}
@@ -195,14 +224,32 @@ main{width:100%;
                         display:flex;
                         align-items: center;
                         justify-content: center;
+                        transition: .5s;
                         
                         }
-
+.yellow figure:nth-of-type(1) figcaption{
+    height:100%;
+    
+}
+.yellow figure:nth-of-type(1) figcaption:hover{
+height:10%}
 .yellow figure:nth-of-type(2) figcaption{
     height:100%;
     
 }
 .yellow figure:nth-of-type(2) figcaption:hover{
+height:10%}
+.yellow figure:nth-of-type(3) figcaption{
+    height:100%;
+    
+}
+.yellow figure:nth-of-type(3) figcaption:hover{
+height:10%}
+.yellow figure:nth-of-type(4) figcaption{
+    height:100%;
+    
+}
+.yellow figure:nth-of-type(4) figcaption:hover{
 height:10%}
 footer{ height:282px;
      margin:0 auto;
@@ -222,3 +269,9 @@ footer div span{white-space: pre-line;
 }
 footer div a{}
 footer div a img{width:30px; height:31px;}
+
+@media(max-width:480px){
+    header article{}
+    .pot{width:100%;}
+    .pot ul{width:100%;}
+}

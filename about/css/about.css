@@ -47,7 +47,6 @@ margin:110px 30px;
 .menu-trigger span {
 display: inline-block;
 box-sizing: border-box;
-display:none;
 }
 
 .menu-trigger span {
@@ -74,7 +73,12 @@ main article{margin-top:277px;}
 main article h1{position:absolute;
                 left:50%; top:40%;
                 transform:translate(-50%, -50%);
-                font-size:40px;}
+                font-size:40px;
+                animation: ani 2s forwards}
+@keyframes ani{
+    0%{transform:translate(0, 0)}
+    100%{}
+}
 main article img{}
 .center{margin: 149px auto;
             width:80%;
@@ -99,7 +103,11 @@ main article img{}
 .center .nat{display:block;
             width:600px;
             margin:0 500px;
+            transition: .5s;
             }
+.center .nat:hover{
+    opacity:40%;
+}
 .dot{
     display:block;
     border:2px dotted black;
@@ -125,8 +133,11 @@ main article img{}
 .bottom .heal{
     display:block;
     width:600px;
-    margin:0 400px;
-   
+    margin:0 200px;
+    transition: .5s;
+}
+.bottom .heal:hover{
+    opacity:40%;
 }
 
 .map{width:100%; background-color:#f4f4f4;
