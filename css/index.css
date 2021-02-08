@@ -20,20 +20,34 @@ header article{width:80%; margin:0 auto;
 .pot ul li{display:inline-block;
             margin-top:127px;
             padding:0 50px;
-            vertical-align: top;}
-.pot ul li a{color:white; font-size: 20px;}
-.pot ul li div{white-space: pre-line;
+            vertical-align: top;
+            position:relative;
+            }
+.pot ul li:hover div{
+    display:block;
+    
+}
+.pot ul li a{color:white; font-size: 20px;
+            transition: .5s;}
+.pot ul li a:hover{
+    
+    
+}
+.pot ul li div{position:absolute;
+                white-space: pre-line;
                 background-color:black;
                 padding:10px 10px;
                 line-height:1.3;
                 display:none;
+                transform:translateX(-50%);
+                left:50%;
+                width:130%;
+                line-height:2em;
+                
 }
-.pot ul li div:hover{
-    display:block;
-}
+
 .pot ul li div a{color:white;
                 }
-
 
 .menu-trigger {
 	width: 50px;
@@ -137,10 +151,7 @@ main{width:100%;
         width:577px; height:387px;
        transition:.5s;
 }
-.main img:hover{
-transform: translateX(-20%);
-  
-}
+
 .main article{}
 .main article h1{
         font-size:48px;
@@ -271,7 +282,5 @@ footer div a{}
 footer div a img{width:30px; height:31px;}
 
 @media(max-width:480px){
-    header article{}
-    .pot{width:100%;}
-    .pot ul{width:100%;}
+    
 }
