@@ -46,7 +46,7 @@ header article {
         background-color: black;
         padding: 10px 10px;
         line-height: 1.3;
-        
+        display:none;
 }
 
 .pot ul li div a {
