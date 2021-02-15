@@ -133,7 +133,7 @@ main article img{}
 .bottom .heal{
     display:block;
     width:600px;
-    margin:0 200px;
+    margin:0 408px;
     transition: .5s;
 }
 .bottom .heal:hover{
@@ -154,6 +154,7 @@ main article img{}
                 margin:41px 0;
                 line-height:2em;}
 .map figure img{}
+
 
 footer{ height:282px;
      margin:0 auto;
