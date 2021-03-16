@@ -21,8 +21,10 @@ justify-content: space-between;
 .pot ul li{display:inline-block;
         margin-top:127px;
         padding:0 50px;
-        vertical-align: top;}
-.pot ul li a{color:white; font-size: 20px;}
+        vertical-align: top;
+        }
+.pot ul li a{color:white; font-size: 20px;
+}
 .pot ul li div{white-space: pre-line;
             background-color:black;
             padding:10px 10px;

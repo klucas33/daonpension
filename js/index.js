@@ -85,6 +85,14 @@ $(function(){
                 //end
             });
            
+
+            ScrollReveal({ duration: 1000 })
+
+            ScrollReveal().reveal('.main article')
+		    ScrollReveal().reveal('.blue', { delay: 500 })
+		    ScrollReveal().reveal('.fac', { delay: 500 })
+
+
    
         }
     });
