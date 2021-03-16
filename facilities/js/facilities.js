@@ -1,16 +1,16 @@
 
 $(function(){
 
-    $("main_img").slick({
+    $("").slick({
         dots: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 3,
         autoplay: true,
         autoplaySpeed: 2000,
-        arrows: true
+        arrows: true,
   
-        // fade:true,
+        fade:true
         // speed:1000
   
         // centerMode: true,
