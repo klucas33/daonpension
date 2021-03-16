@@ -45,7 +45,14 @@ $(function(){
                     $('.menu-trigger span').toggleClass('active'),
                     $('.pot ul li div').toggleClass('active');
                 })
-
+            
+            $('.yellow figure a figcaption').mouseenter(function(){
+                $(this).css('background-color','inherit');
+            })
+            $('.yellow figure a figcaption').mouseleave(function(){
+                $(this).css('background-color','rgba(0,0,0,0.6)');
+            })
+  
             
             
             $(function() {
