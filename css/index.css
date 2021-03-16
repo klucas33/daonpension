@@ -22,17 +22,16 @@ header article{width:80%; margin:0 auto;
             padding:0 50px;
             vertical-align: top;
             position:relative;
+            
             }
 .pot ul li:hover div{
     display:block;
     
+    
 }
 .pot ul li a{color:white; font-size: 20px;
             transition: .5s;}
-.pot ul li a:hover{
-    
-    
-}
+
 .pot ul li div{position:absolute;
                 white-space: pre-line;
                 background-color:black;
@@ -43,8 +42,13 @@ header article{width:80%; margin:0 auto;
                 left:50%;
                 width:130%;
                 line-height:2em;
+                display:none;
+                
                 
 }
+.pot ul li div.active{display:block;
+                   }
+
 
 .pot ul li div a{color:white;
                 }
@@ -83,6 +87,26 @@ header article{width:80%; margin:0 auto;
 
 .menu-trigger span:nth-of-type(3) {
     bottom: 0;
+}
+.menu-trigger span.active{
+    width: 100%;
+	height: 4px;
+	background-color: #fff;
+    border-radius: 4px;
+    height:8px;
+}
+
+.menu-trigger span.active:nth-of-type(1) {
+	transform:rotate(45deg);
+
+}
+
+.menu-trigger span.active:nth-of-type(2) {
+	display:none;
+}
+
+.menu-trigger span.active:nth-of-type(3) {
+    transform: rotate(-s45deg);
 }
 main{width:100%;
     }
@@ -171,28 +195,41 @@ main{width:100%;
     justify-content: space-evenly;
     margin-top:50px;}
 .red .dont{
-    display: flex;
+    display: none;
     align-items: center;
+
     }
-.red .dont span{background-color:#434343;
+.red .dont button{background-color:#434343;
     height:58px;
     width:58px;
     display:inline-block;
     border-radius: 100%;
     margin:0 30px;
-    transition: .5s;}
-.red .dont span:hover{
+    transition: .5s;
+    outline-style: none;
+    border-style: none;}
+.red .dont button:hover{
     background-color:orange;
 }
-.red .dont span img{width:13px;
-                    margin:21px;}
-.red figure{margin:0 10px;}
-.red figure img{width:475px; height:385px;
+.red .dont button img{width:13px;
+                    margin:15px;}
+.red figure{width:32%; flex:0 0 auto;
+            margin-right:2%;
+            transition: .5s;}
+.red figure img{width:100%; height:385px;
                 vertical-align: top;
                 transition: .5s;
                 }
-.red figure img:hover{
-    transform:translateY(-20%);
+
+.overflow{
+    overflow:hidden;
+    display:flex;
+    width:100%;
+    transition:.5s;
+
+}
+.red > div{
+    width:80%;
 }
 .red figure div{
     display:flex;
@@ -202,10 +239,10 @@ main{width:100%;
     text-transform: uppercase;
 }
 .red figure div figcaption{
-    margin:33px 44px;
+    margin:20px 10px;
 }
 .red figure div p{
-    margin:33px 44px;
+    margin:20px 10px;
 }
 .fac{width:80%; margin:0 auto;
     text-align: center;}
@@ -242,26 +279,26 @@ main{width:100%;
     height:100%;
     
 }
-.yellow figure:nth-of-type(1) figcaption:hover{
-height:10%}
+/* .yellow figure:nth-of-type(1) figcaption:hover{
+height:10%} */
 .yellow figure:nth-of-type(2) figcaption{
     height:100%;
     
 }
-.yellow figure:nth-of-type(2) figcaption:hover{
-height:10%}
+/* .yellow figure:nth-of-type(2) figcaption:hover{
+height:10%} */
 .yellow figure:nth-of-type(3) figcaption{
     height:100%;
     
 }
-.yellow figure:nth-of-type(3) figcaption:hover{
-height:10%}
+/* .yellow figure:nth-of-type(3) figcaption:hover{
+height:10%} */
 .yellow figure:nth-of-type(4) figcaption{
     height:100%;
     
 }
-.yellow figure:nth-of-type(4) figcaption:hover{
-height:10%}
+/* .yellow figure:nth-of-type(4) figcaption:hover{
+height:10%} */
 footer{ height:282px;
      margin:0 auto;
         }

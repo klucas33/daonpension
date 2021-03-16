@@ -1,0 +1,14 @@
+{
+    "gallery":[
+        {"type" : "room1", "asrc": "only you 101/O_y_101.html", "imgSrc":"imgs/main2.jpg","title" : "only you", "detail" : "101호"  },
+        {"type" : "room2", "asrc": "only you 102/O_y_102.html", "imgSrc":"imgs/main3.jpg","title" : "only you", "detail" : "102호"  }, 
+        {"type" : "room3", "asrc": "only you 103/O_y_103.html", "imgSrc":"imgs/main4.jpg","title" : "only you", "detail" : "103호"  },
+        {"type" : "room4", "asrc": "only you 201/O_y_201.html", "imgSrc":"imgs/slide_img1.jpg","title" : "only you", "detail" : "201호"  },
+        {"type" : "room5", "asrc": "only you 202/O_y_202.html", "imgSrc":"imgs/slide_img2.jpg","title" : "only you", "detail" : "202호"  },
+        {"type" : "room6", "asrc": "love you 101/l_y_101.html", "imgSrc":"imgs/slide_img3.jpg","title" : "love you", "detail" : "101호"  },
+        {"type" : "room7", "asrc": "love you 102/l_y_102.html", "imgSrc":"imgs/slide_img4.jpg","title" : "love you", "detail" : "102호"  },
+        {"type" : "room8", "asrc": "love you 103/l_y_103.html", "imgSrc":"imgs/slide_img5.jpg","title" : "love you", "detail" : "103호"  },
+        {"type" : "room9", "asrc": "love you 201/l_y_201.html", "imgSrc":"imgs/slide_img6.jpg","title" : "love you", "detail" : "201호"  },
+        {"type" : "room10", "asrc": "love you 202/l_y_202.html", "imgSrc":"imgs/slide_img7.jpg","title" : "love you", "detail" : "202호"  }
+    ]
+}
