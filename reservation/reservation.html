@@ -7,7 +7,12 @@
     <title>Document</title>
     <link href="css/reservation.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="common.js"></script>
+    <script src="./jquery-3.1.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <link rel="stylesheet" href="css/datepicker.min.css" />
+    <script src="js/datepicker.js"></script>
+    <script src="js/datepicker.en.js"></script>
+    <script src="js/reservation.js"></script>
 </head>
 
 <body>
@@ -42,7 +47,7 @@
                     </div>
                     <a href="#"><img src="imgs/right.png"></a>
                 </div>
-                <table>
+                <!-- <table>
                     <tr>
                         <td class="sun">일</td>
                         <td>월</td>
@@ -101,7 +106,11 @@
                         <td class="sun">31</td>
                         <td></td><td></td><td></td><td></td><td></td><td></td>
                     </tr>
-                </table>
+                </table> -->
+                <div class="cal">
+                    단일 달력<br />
+                    <input type="text" id="datepicker">
+                </div><br /><br /><br />
             </div>
             <article class="ko">
                 <h3>다온펜션</h3>

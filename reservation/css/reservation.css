@@ -146,7 +146,7 @@ main article img {
         align-items: center;
 }
 
-.do {}
+.do {width:50%;}
 
 .kor {
         display: flex;
@@ -184,7 +184,7 @@ main article img {
 .do table tr td {
         font-weight: bold;
 }
-
+.cal{text-align:center;}
 .ko {
         display: flex;
         flex-direction: column;
