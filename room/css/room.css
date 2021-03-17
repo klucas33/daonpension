@@ -75,7 +75,8 @@ main article{margin-top:234px;
 main article h1{position:absolute;
                 left:50%; top:50%;
                 transform:translate(-50%, -50%);
-                color:white;}
+                color:white;
+                font-size:40px;}
 main article img{}
 
 .middle{width:80%;
@@ -103,7 +104,8 @@ main article img{}
         align-items: center;}
 .wow div{position: relative;
         margin:20px;
-        width:45%;}
+        width:45%;
+        transition: .5s;}
 .wow div figure{position:absolute;
                 left:0; bottom:0;
                 display:flex;
@@ -126,18 +128,23 @@ main article img{}
 .wow div img{
         width:100%;
         
+        
+}
+.wow div:hover{
+        transform:scale(1.1)
 }
 
-
 .hello h2{margin-bottom:32px;
-        padding:0 20px;}
+        padding:0 20px;
+        font-size:30px;}
 .cool{display:flex;
         flex-wrap:wrap;
         justify-content: space-between;
         align-items: center;}
 .cool div{position: relative;
         margin:20px;
-        width:45%;}
+        width:45%;
+        transition: .5s;}
 .cool div figure{position:absolute;
                 left:0; bottom:0;
                 display:flex;
@@ -148,6 +155,9 @@ main article img{}
                 background-color:#b22b64;
                 color:white;
                 font-size:20px;
+}
+.cool div:hover{
+        transform: scale(1.1);
 }
 
 .cool div img{

@@ -3,11 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="css/availability-calendar.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/O_y_101.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="common.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/o_y_101.js"></script>
+    <script src="js/availability-calendar.js"></script>
 </head>
 
 <body>
@@ -49,13 +52,13 @@
                     특이사항 :
                     <span style="color:#807d7d">없음</span>
                 </P>
-                <a href="#">
+                <a href="../reservation/reservation.html">
                     <span>실시간 예약하기</span>
                 </a>
             </article>
         </div>
         <div class="bottom">
-            <article>
+            <!-- <article>
                 <h2>
                     <a href="#"><img src="imgs/left.png"></a>
                     2021년 01월 20일 ~ 2021년 01월 24일 
@@ -63,7 +66,8 @@
                 </h2>
                 
                 <img src="imgs/chart.jpg">
-            </article>
+            </article> -->
+            <div id="calendar"></div>
             
         </div>
     </main>

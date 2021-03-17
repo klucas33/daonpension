@@ -247,6 +247,9 @@ table .tab {}
         border-radius: 3px;
         border:1px solid #ddd;
 }
+.tab tr td span label.active {
+        background-color: #3887d1;
+}
 .tab tr td span input:disabled + label {
         background:#eeeeee
 }
