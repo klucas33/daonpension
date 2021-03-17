@@ -1,5 +1,7 @@
 $(function(){
     $("#datepicker").datepicker({
-    	language: 'en'
+    	language: 'ko',
+        timepicker: true,
+        timeFormat: 'hh:ii AA'
     }); 
 })

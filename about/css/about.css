@@ -88,7 +88,7 @@ main article img{}
                 text-align:right;}
 .center figure div{
                     }
-.center figure img{width:1115px;
+.center figure img{width:70%;
                     }
 
 
@@ -102,7 +102,6 @@ main article img{}
 .center figure div figcaption{white-space: pre-line;}
 .center .nat{display:block;
             width:600px;
-            margin:0 500px;
             transition: .5s;
             }
 .center .nat:hover{
@@ -128,7 +127,7 @@ main article img{}
                     margin:20px 0;
                     font-size:20px;}
 .bottom figure div figcaption{white-space: pre-line;}
-.bottom figure img{width:1115px;}
+.bottom figure img{width:70%;}
 
 .bottom .heal{
     display:block;
@@ -148,7 +147,6 @@ main article img{}
                         font-size:25px;
                         font-weight:bold;
                         display:inline-block;
-                        padding-right:10%;
                         border-bottom:1px solid black;}
 .map figure p{white-space: pre-line;
                 margin:41px 0;
