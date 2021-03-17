@@ -8,8 +8,7 @@ $(function(){
                 if($(this).find('label').hasClass('active')){
                     console.log()
                     
-                    var total = $(this).find('.purple option').filter(':selected').val() * '90000';
-                    
+                    var total = $(this).find('.purple option').filter(':selected').val() * '90000';                    
                     $(this).find('td:last p').text(total+'원')
 
                     all = parseInt( $(this).find('td:last p').text() ) * $('.tab tr label.active').length;
