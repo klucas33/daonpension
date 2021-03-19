@@ -38,6 +38,7 @@ header article{width:80%; margin:0 auto;
                    width:130%;
                    line-height:2em;
                    display:none;
+                   z-index:2;
                    
                        
            }
