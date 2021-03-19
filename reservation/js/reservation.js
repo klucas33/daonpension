@@ -2,52 +2,40 @@ $(function(){
     var i = 0,all = 0;
     
         $('.tab tr td span label').on('click',function(){
+            if( $(this).prev().prop('disabled') ) return;
+            
             $(this).toggleClass('active')
             order()  
         })
 
-        $('.tab tr').find('select').change(function(){
-            console.log($('.purple').val())
-            change()
+        $('.tab select').on('change', function(){
+            order()
         })
 
     function order(){
-
-
+        var roomPrice = 90000;
+        var adultPrice = 20000;
+        var total = 0, adultNum=0;
+        var result = 0;
 
         $('.tab tr').each(function(){
             if($(this).find('label').hasClass('active')){
-                var total = $(this).find('.purple option').filter(':selected').val() * '90000';                    
+                var day = $(this).find('select[name=time]').val();
+                var adult = $(this).find('select[name=adult]').val();
+                
+                if(adult > 2){
+                    adultNum = adult - 2;
+                }
+                total = (day * roomPrice ) + (adultPrice * adultNum);
                 $(this).find('td:last p').text(total+'원')
 
-                // $('.purple').find('option:selected').val() * $(this).find('td:last p').val();
-
-                all = parseInt( $(this).find('td:last p').text() ) * $('.tab tr label.active').length;
-                $('.last .box span').text(all)
-
-                // $('.purple option:selected').val() * $(this).find('td:last p').val(total)
-
-            }else{
-                $(this).find('td:last p').text('0원')
-                // $('.last .box span').text('0') * $('.tab tr label.active').length;
+                result += total;
             }
-
-            if($(this).find('input').is(':disabled') && $('.last .box span').val() == 0 ){
-                $(this).find('td:last p').text('0원')
-                $('.last .box span').text('0')
-            }
-      
-                           
         })
+
+        $('.box span').text(result);
     }
 
-    function change(){    
-        $('.tab tr').each(function(){
-            $(this).find('.purple').on('change',function(){
-                $(this).find('td:last p').text() * $(this).find('.purple').val()
-            })
-        })
-    }
 
 
     $('#datepicker').datepicker({
