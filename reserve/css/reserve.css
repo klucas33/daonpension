@@ -73,8 +73,8 @@ main article{}
 main article h1{position:absolute;
                 color:white;
                 font-weight:normal;
-                margin:720px 0 0 150px;
                 font-size:50px;
+                left:10%; top:88%;
                 }
 main article img{margin-top:275px;}
 
@@ -106,8 +106,8 @@ main article img{margin-top:275px;}
         width:80%;}
 .bear h2{margin-top:115px;
         border-bottom:3px solid black;
-        width:17%;
-        text-align: center;
+        width:12%;
+        text-align: left;
         }
 .table{margin-top:45px;
         text-align: center;

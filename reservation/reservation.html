@@ -9,10 +9,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/common.js"></script>
     <link rel="stylesheet" href="css/datepicker.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/reservation.js"></script>
     <script src="js/datepicker.js"></script>
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/datepicker.ko.js"></script>
+    <script src="js/datepicker.en.js"></script>
+    <script src="js/datepicker.min.js"></script>
 </head>
 
 <body>
@@ -42,8 +43,8 @@
                 <div class="kor">
                     <a href="#"><img src="imgs/left.png"></a>
                     <div>
-                        <p>2021. 01</p>
-                        <span style="font-size: 20px; color:#747272;">오늘 : 2021-01-19(화)</span>
+                        <p>2021. 03</p>
+                        <span style="font-size: 20px; color:#747272;" id="time">오늘 : 2021-01-19(화)</span>
                     </div>
                     <a href="#"><img src="imgs/right.png"></a>
                 </div>
@@ -109,7 +110,7 @@
                 </table> -->
                 <div class="cal">
                     <br />
-                    <input type="text" id="datepicker">
+                    <input type="text" id="datepicker" data-language='en'>
                 </div><br /><br /><br />
             </div>
             <article class="ko">
@@ -121,7 +122,7 @@
             </article>
         </div>
         <article class="boo">
-            <h2>이용시작일 : <span style="color:#ff0909;">2021-01-19(화)</span></h2>
+            <h2>이용시작일 : <span style="color:#ff0909;" id="coke"></span></h2>
             <p>달력에서 이용시작일을 선택하여 예약가능한 객실을 선택 후 예약하기 버튼을 클릭하세요.</p>
         </article>
         <table cellpadding="0" cellspacing="0">

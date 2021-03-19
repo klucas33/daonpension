@@ -116,7 +116,7 @@ main{width:100%;
 .spot img{}
 .spot div{position:absolute;
         left:50%; top:50%;
-        transform:translate(-50%, -200%);
+        transform:translate(-50%, -80%);
          
 }
 .spot figure div img{
@@ -131,8 +131,7 @@ main{width:100%;
     
 }
 .group{ position:absolute;
-        
-        transform:translate(25%, -25%);
+        left:25%; bottom:1%;
 
         width:100%;}
 .group form {width:1000px;

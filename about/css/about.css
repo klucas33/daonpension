@@ -71,7 +71,7 @@ bottom: 0;
 main{}
 main article{margin-top:277px;}
 main article h1{position:absolute;
-                left:50%; top:40%;
+                left:50%; top:50%;
                 transform:translate(-50%, -50%);
                 font-size:40px;
                 animation: ani 2s forwards}
