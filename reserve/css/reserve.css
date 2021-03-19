@@ -74,7 +74,7 @@ main article h1{position:absolute;
                 color:white;
                 font-weight:normal;
                 font-size:50px;
-                left:10%; top:88%;
+                left:10%; top:75%;
                 }
 main article img{margin-top:275px;}
 
@@ -105,10 +105,17 @@ main article img{margin-top:275px;}
 .bear{margin:0 auto;
         width:80%;}
 .bear h2{margin-top:115px;
-        border-bottom:3px solid black;
         width:12%;
         text-align: left;
+        position:relative;
         }
+.bear h2::after{
+        content:'';
+        position:absolute;
+        bottom:-10%;left:0;
+        border:1px solid black;
+        width:80%;
+}
 .table{margin-top:45px;
         text-align: center;
         border:1px solid black;

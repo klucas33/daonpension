@@ -318,5 +318,8 @@ footer div a{}
 footer div a img{width:30px; height:31px;}
 
 @media(max-width:480px){
-    
+    body{width:100%;}
+    header{width:480px;}
+    header article{margin:0;
+                    text-align: initial;}
 }
