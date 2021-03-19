@@ -106,7 +106,7 @@ bottom: 0;
         margin:0 auto;}
 .group .hole{margin-top:405px;
                }
-.group .hole img{}
+.group .hole img{opacity:0;}
 .group div{margin: 0 auto; text-align: center;
         white-space: pre-line;
                }
@@ -116,7 +116,7 @@ bottom: 0;
                 margin:0 auto;
                 width:80%;}
 .group div h2 strong{
-        color:#1da365;
+        color:#8a5526;
 
 
 }
@@ -129,17 +129,19 @@ bottom: 0;
 .group div p{
         font-weight: bold;
         line-height:1.5em;}
-.group .pot{}
-.group .pot img:nth-of-type(1){
+.group .rock{}
+.group .rock img:nth-of-type(1){
         width:787px;
 }
-.group .pot img:nth-of-type(2){
+.group .rock img:nth-of-type(2){
         width:500px;}
 .group figure{
         padding:63px 0;
 }
-.pot {}
-
+.rock {opacity:0;
+        display:flex;
+           justify-content: space-between;}
+.pop{opacity:0;}
 footer{ height:282px;
      margin:0 auto;
     
