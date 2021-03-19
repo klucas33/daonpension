@@ -36,7 +36,9 @@ $(function(){
         $('.box span').text(result);
     }
 
-
+    $('.last a').on('click',function(){
+        alert('올바르게 선택했는지 다시 한번 확인해주세요')
+    })
 
     $('#datepicker').datepicker({
     	language: 'en',
@@ -52,7 +54,7 @@ $(function(){
     var minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes();
     var hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours();
     var ampm = d.getHours() >= 12 ? '<sup>PM<sup>' : '<sup>AM<sup>';
-    document.getElementById("time").innerHTML = d.getDate() + ' ' + months[month]+' '+d.getFullYear()+' '+hours +':'+minutes + ' ';
+    document.getElementById("time").innerHTML = months[month] + ' ' +d.getDate() +' '+d.getFullYear()+' '+hours +':'+minutes + ' ';
     document.getElementById("coke").innerHTML =  d.getFullYear()+' ' +   months[month]+' ';     
     
 })
