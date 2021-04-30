@@ -318,8 +318,66 @@ footer div a{}
 footer div a img{width:30px; height:31px;}
 
 @media(max-width:480px){
-    body{width:100%;}
-    header{width:480px;}
-    header article{margin:0;
-                    text-align: initial;}
+    body{width:fit-content;}
+    header{width:100%;}
+    header article{}
+    .pot{width:100%;}
+}
+
+@media(min-width: 768px) and (max-width:1024px){
+    body{}
+    .pot{width:100%}
+    .pot > a{position:absolute;
+            left:0;
+            top:40%;
+            margin:0;}
+    .pot a img{width:50%;}
+    .pot ul{display:flex;
+            position:absolute;
+            height:50px;}
+    .pot ul:nth-of-type(1){
+        top:0%;
+        left:25%;
+        width:25%;
+    }
+    .pot ul:nth-of-type(2){
+        right:25%;
+        top:0;
+        width:25%;
+    }
+    .pot ul li{width:100%;
+                margin:0;
+                padding:0;
+                line-height:3rem;}
+    .spot div{
+        left:50%;
+        top:28%;
+    }
+    .spot div img{}
+    .menu-trigger{
+        margin:0;
+    }
+    .pot ul li div.active{
+        width:150px;
+    }
+    .pot ul li a{font-size:15px;}
+    .group{left:0;bottom:40%;
+            }
+    .group form{width:75%;
+                margin:0 auto;}
+    .group form div{width:100%;}
+    .main{display:flex;
+            flex-direction:column;}
+    .main img{margin-bottom:50px;}
+    .main article h1{font-size:35px;}
+    .main article p{
+        font-size:15px;
+        line-height:2rem;
+    }
+    .red{width:100%;}
+    .red >div{}
+    footer div{padding:0;}
+    footer div > img{margin-left:20px;}
+    footer div span{width:50%;}
+    footer div nav{margin-right:20px;}
 }
