@@ -286,3 +286,10 @@ footer div span{white-space: pre-line;
 }
 footer div a{}
 footer div a img{width:30px; height:31px;}
+@media(min-width: 768px) and (max-width:1024px){
+        body{width:100%;}
+        header > article{height:280px;}
+        .pot ul{display:flex;}
+        .pot ul li{padding:0 30px 0 0;}
+        .pot a{margin-top:80px;}
+}
