@@ -5,6 +5,7 @@ $(function(){
             if( $(this).prev().prop('disabled') ) return;
             
             $(this).toggleClass('active')
+            $('.tab tr td:nth-of-type(6) p').text('0원')
             order()  
         })
 
