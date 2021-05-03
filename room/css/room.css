@@ -200,3 +200,26 @@ footer div span{white-space: pre-line;
 }
 footer div a{}
 footer div a img{width:30px; height:31px;}
+@media(min-width: 768px) and (max-width:1024px){
+        body{width:100%;}
+        header > article{height:280px;}
+        .pot ul{display:flex;}
+        .pot ul li{padding:0 22px 0 0;}
+        .pot a{margin-top:80px;}
+        main article:nth-of-type(1) img{height:fit-content;}
+        .middle{width:100%;}
+        .middle img{width:100%;}
+        .middle h1{margin-bottom:20px;}
+        .hello{width:90%;}
+        .wow div{margin:0;
+                margin-bottom:30px;}
+        .wow div figure{padding:20px;}
+        .cool div{margin:0;
+                margin-bottom:30px;}
+        .cool div figure{padding:20px;}
+        footer{padding-top:120px;}
+        footer div{padding:0;}
+        footer div > img{margin-left:20px;}
+        footer div span{width:50%;}
+        footer div nav{margin-right:20px;}
+}
